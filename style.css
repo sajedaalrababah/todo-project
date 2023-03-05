@@ -16,13 +16,14 @@ a:link{
   nav {
    display:flex;
     background-color: #9799dc;
-    
+    align-items: center;
     justify-content: space-between;
    
   }
   
  nav ul{
-  display: flex;
+  display:flex;
+ justify-content:left;
   gap: 100px;
   font-size: 20px;
     padding: 20px;
@@ -103,3 +104,4 @@ justify-content:space-between
 nav div {
   display: flex;
 }
+

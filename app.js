@@ -32,3 +32,48 @@ else{
     alert("the gender undefined");
 }
 
+
+const arrOfAnswer=[];
+
+
+
+function singleOrMaried(){
+var single = prompt ("are you single ");
+if (single=="yes"||single=="no"){
+  arrOfAnswer.push(single);  
+}
+else if(single===null||single=="") {
+     arrOfAnswer.push("invalid");}
+}
+singleOrMaried();
+
+function studentOrEmploer() {
+    var student= prompt ("are you student ");
+    if (student=="yes"||student=="no"){
+        arrOfAnswer.push(student);  
+       }
+       else if(student===null||student=="") {
+            arrOfAnswer.push("invalid");}
+}
+studentOrEmploer();
+
+function programerOrNO() {
+    var programer= prompt ("are you a programer ");
+    if (programer=="yes"||programer=="no"){
+        arrOfAnswer.push(programer);  
+       }
+       else if(programer===null||programer=="") {
+            arrOfAnswer.push("invalid");}
+}
+programerOrNO();
+
+
+for (let i = 0; i <= arrOfAnswer.length-1; i++) {
+    console.log(arrOfAnswer);
+    
+}
+
+
+
+
+
